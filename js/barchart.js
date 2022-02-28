@@ -104,7 +104,7 @@ const mouseleave1 = function(event, d) {
 
 */
 
-// enters the data into the bar chart
+// enters the data into the bar chart and adds event functions
 svg1.selectAll(".bar") 
    .data(data1) 
    .enter()  
